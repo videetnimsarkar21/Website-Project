@@ -1,0 +1,96 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<script type="text/javascript" src="{% static 'css/home.js' %}"></script>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-24 col-md-24 col-sm-112 col-xs-24">
+						<div class="tabing">
+							<ul>
+								<li ><a href="#1" class="active"><span><i class="fa fa-plane" aria-hidden="true"></i></span> Pola Logistics</a></li>
+								<li ><a href="#2" ><span><i class="fa fa-bed" aria-hidden="true"></i></span> </a></li>
+								
+								
+							</ul>
+							<div class="tab-content">
+								<div id="1" class="tab1 active">
+									<form>
+										<div class="triptype">
+											<label class="rndTrip active"><input type="radio" name="Round" value="RoundTrip" checked> Round Trip</label>
+											<label class="oneTrip"><input type="radio" name="Round" value="OneWay"> OneWay				</label>
+										</div>
+										
+										<div class="select-wrap">
+											<div class="adult-box">
+												
+												<select>
+													<option>From</option>
+													<option>Mumbai</option>
+													<option>Bengaluru</option>
+													<option>Chennai </option>
+													<option>Ahmedabad </option>
+													<option>Delhi </option>
+													<option>Kolkata </option>
+													<option>Kharagpur </option>
+													<option>Hyderabad </option>
+												</select>
+											</div>
+										</div>
+										<div class="select-wrap">
+											<div class="adult-box">
+												<select>
+													<option>To</option>
+													<option>Mumbai</option>
+													<option>Bengaluru</option>
+													<option>Chennai </option>
+													<option>Ahmedabad </option>
+													<option>Delhi </option>
+													<option>Kolkata </option>
+													<option>Kharagpur </option>
+													<option>Hyderabad </option>
+												</select>
+											</div>
+											
+										</div>	
+										
+										<div class="col-sm-12 col-xs-12 ctrl">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+											<input id="depart" type="text" class="form-control" name="depart" value="" placeholder="dd-mm-yyyy">
+										</div>
+										<div class="col-sm-12 col-xs-12 ctrl hide_one-trip">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+											<input id="airport_city_Return" type="text" class="form-control" name="Return" value="" placeholder="dd-mm-yyyy">
+										</div>
+										
+										<div class="select-wrap prefered-air">
+											<div class="adult-box">
+												
+												<select>
+													<option value="All">Mode of Transport</option>
+													<option value="road">Road</option>
+													<option value="railway">Railway</option>
+													<option value="air">AIR </option>
+												</select>
+											</div>
+											
+										</div>
+										
+										
+										
+										<div class="col-lg-24">
+											<input type="submit" class="srch" value="Search" />
+										</div>
+									</form> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
