@@ -1,0 +1,10 @@
+Source,Destination ,Ola-1,Uber-1,Flight ,Train,Ola-2,Uber-2,Total cost (Least)
+Mumbai BKC,"Cyber City, Gurgaon",550,600,4500,3200,1400,1200,
+Mumbai NKP,"Cyber City, Gurgaon",750,650,3800,2700,1000,1100,
+"Cyber City, Gurgaon",Mumbai BKC,600,650,,,,,
+Noida Sec-25,Mumbai NKP,900,1000,,,,,
+"Cyber City, Gurgaon",IGIA Delhi,1200,1400,0,0,0,0,
+Noida Sec-25,IGIA Delhi,1500,1400,0,0,0,0,
+"Cyber City, Gurgaon",New Delhi Railway Station,800,750,0,0,0,0,
+IGIA Delhi,Noida Sec-25,1800,1650,0,0,0,0,
+New Delhi Railway Station,"Cyber City, Gurgaon",650,600,0,0,0,0,
